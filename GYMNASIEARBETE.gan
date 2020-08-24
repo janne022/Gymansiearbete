@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="GYMNASIEPROJEKT" company="" webLink="http://" view-date="2020-10-01" view-index="0" gantt-divider-location="556" resource-divider-location="300" version="2.8.11" locale="en">
+<?xml version="1.0" encoding="UTF-8"?><project name="GYMNASIEPROJEKT" company="" webLink="http://" view-date="2020-08-16" view-index="0" gantt-divider-location="519" resource-divider-location="300" version="2.8.11" locale="en">
     <description/>
-    <view zooming-state="default:8" id="gantt-chart">
-        <field id="tpd3" name="Name" width="274" order="0"/>
-        <field id="tpd4" name="Begin date" width="129" order="1"/>
-        <field id="tpd5" name="End date" width="149" order="2"/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Name" width="255" order="0"/>
+        <field id="tpd4" name="Begin date" width="121" order="1"/>
+        <field id="tpd5" name="End date" width="139" order="2"/>
         <timeline><![CDATA[3]]></timeline>
         <option id="color.recent"><![CDATA[#ff3366 #ff0033 #6666ff]]></option>
     </view>
@@ -36,6 +36,15 @@
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
         <task id="3" name="Introduction" color="#6666ff" meeting="false" start="2020-08-24" duration="6" complete="30" thirdDate="2020-08-24" thirdDate-constraint="0" priority="2" expand="true">
+            <notes><![CDATA[
+Kommunikation och handledning
+Välja ämne, börja hitta grupper
+(Frågeställning)"
+ämnen
+Loggbok
+Dokument och mallar, var man hittar grejer
+Planering, tidsplan (GANTT)
+Arbete (frågeställning & projektplan)"]]></notes>
             <depend id="6" type="2" difference="0" hardness="Strong"/>
         </task>
         <task id="6" name="Frågeställning &amp; Projektplan" color="#8cb6ce" meeting="false" start="2020-09-01" duration="9" complete="0" thirdDate="2020-08-24" thirdDate-constraint="0" priority="2" expand="true">
@@ -48,6 +57,16 @@
 Inkl abstract, förstudie
 Preliminära tester/resultat?"]]></notes>
         </task>
+        <task id="27" name="JULLOV" color="#8cb6ce" meeting="false" start="2020-12-21" duration="15" complete="0" thirdDate="2020-08-17" thirdDate-constraint="0" expand="true"/>
+        <task id="30" name="DEADLINE: slutversion rapport" color="#8cb6ce" meeting="true" start="2021-01-18" duration="0" complete="0" thirdDate="2020-08-17" thirdDate-constraint="0" priority="4" expand="true">
+            <depend id="32" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="32" name="Förberedelse inför opponering" color="#8cb6ce" meeting="false" start="2021-01-18" duration="5" complete="0" thirdDate="2020-08-17" thirdDate-constraint="0" priority="4" expand="true"/>
+        <task id="35" name="Opponering" color="#8cb6ce" meeting="false" start="2021-02-01" duration="20" complete="0" thirdDate="2020-08-17" thirdDate-constraint="0" priority="2" expand="true"/>
+        <task id="37" name="SPORTLOV" color="#8cb6ce" meeting="false" start="2021-03-01" duration="5" complete="0" thirdDate="2021-02-26" thirdDate-constraint="0" expand="true">
+            <depend id="39" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="39" name="KLAR!!!!!!!!!" color="#8cb6ce" meeting="false" start="2021-03-08" duration="1" complete="0" thirdDate="2020-08-17" thirdDate-constraint="0" expand="true"/>
         <task id="18" name="Gruppredovisning för Förstudie &amp; Prototyp" color="#ff3366" meeting="true" start="2020-10-12" duration="0" complete="0" thirdDate="2020-08-31" thirdDate-constraint="0" priority="4" expand="true"/>
     </tasks>
     <resources/>
