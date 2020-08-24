@@ -1,13 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="GYMNASIEPROJEKT" company="" webLink="http://" view-date="2020-08-24" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.11" locale="ja_JP">
+<?xml version="1.0" encoding="UTF-8"?><project name="GYMNASIEPROJEKT" company="" webLink="http://" view-date="2020-10-01" view-index="0" gantt-divider-location="556" resource-divider-location="300" version="2.8.11" locale="en">
     <description/>
-    <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="名前" width="167" order="0"/>
-        <field id="tpd4" name="開始日" width="65" order="1"/>
-        <field id="tpd5" name="終了日" width="64" order="2"/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="Name" width="274" order="0"/>
+        <field id="tpd4" name="Begin date" width="129" order="1"/>
+        <field id="tpd5" name="End date" width="149" order="2"/>
+        <timeline><![CDATA[3]]></timeline>
+        <option id="color.recent"><![CDATA[#ff3366 #ff0033 #6666ff]]></option>
     </view>
     <view id="resource-table">
-        <field id="0" name="名前" width="210" order="0"/>
-        <field id="1" name="デフォルトの役割" width="86" order="1"/>
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -33,9 +35,20 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="jobba" meeting="false" start="2020-08-24" duration="1" complete="0" expand="true"/>
-        <task id="1" name="hej" meeting="false" start="2020-08-24" duration="1" complete="0" expand="true"/>
-        <task id="2" name="bruh" meeting="false" start="2020-08-24" duration="1" complete="0" expand="true"/>
+        <task id="3" name="Introduction" color="#6666ff" meeting="false" start="2020-08-24" duration="6" complete="30" thirdDate="2020-08-24" thirdDate-constraint="0" priority="2" expand="true">
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="6" name="Frågeställning &amp; Projektplan" color="#8cb6ce" meeting="false" start="2020-09-01" duration="9" complete="0" thirdDate="2020-08-24" thirdDate-constraint="0" priority="2" expand="true">
+            <depend id="16" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="16" name="Inlämning av Frågeställning &amp; Projektplan" color="#ff0033" meeting="true" start="2020-09-14" duration="0" complete="0" thirdDate="2020-08-31" thirdDate-constraint="0" priority="4" expand="true"/>
+        <task id="22" name="HÖSTLOV" color="#8cb6ce" meeting="false" start="2020-10-26" duration="5" complete="0" thirdDate="2020-10-01" thirdDate-constraint="0" expand="true"/>
+        <task id="24" name="DEADLINE: Utkast till rapporten" color="#8cb6ce" meeting="true" start="2020-11-23" duration="0" complete="0" thirdDate="2020-10-01" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA["DEADLINE: Utkast till rapporten
+Inkl abstract, förstudie
+Preliminära tester/resultat?"]]></notes>
+        </task>
+        <task id="18" name="Gruppredovisning för Förstudie &amp; Prototyp" color="#ff3366" meeting="true" start="2020-10-12" duration="0" complete="0" thirdDate="2020-08-31" thirdDate-constraint="0" priority="4" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
