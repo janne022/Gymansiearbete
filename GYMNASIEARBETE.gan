@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="GYMNASIEPROJEKT" company="" webLink="http://" view-date="2020-08-23" view-index="1" gantt-divider-location="519" resource-divider-location="300" version="2.8.11" locale="en">
+<?xml version="1.0" encoding="UTF-8"?><project name="GYMNASIEPROJEKT" company="" webLink="http://" view-date="2020-07-01" view-index="0" gantt-divider-location="519" resource-divider-location="300" version="2.8.11" locale="en">
     <description/>
-    <view zooming-state="default:7" id="gantt-chart">
+    <view zooming-state="default:8" id="gantt-chart">
         <field id="tpd3" name="Name" width="303" order="0"/>
         <field id="tpd4" name="Begin date" width="73" order="1"/>
         <field id="tpd5" name="End date" width="139" order="2"/>
         <timeline><![CDATA[3]]></timeline>
-        <option id="color.recent"><![CDATA[#00cccc #cc66ff #66ffff #cc00cc #cccc00 #ffff00 #ff0066 #ff6699 #ffcc33 #6666ff]]></option>
+        <option id="color.recent"><![CDATA[#ffcc33 #00cccc #cc66ff #66ffff #cc00cc #cccc00 #ffff00 #ff0066 #ff6699 #6666ff]]></option>
     </view>
     <view id="resource-table">
         <field id="0" name="Name" width="210" order="0"/>
@@ -76,14 +76,16 @@ Arbete (frågeställning & projektplan)"]]></notes>
         <task id="74" name="Handledning (Arbete &amp; Rapportmallen)" color="#6666ff" meeting="false" start="2020-11-02" duration="5" complete="0" thirdDate="2020-08-03" thirdDate-constraint="0" expand="true">
             <depend id="76" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="32" name="Förberedelse inför opponering" color="#6666ff" meeting="false" start="2021-01-18" duration="5" complete="0" thirdDate="2020-08-17" thirdDate-constraint="0" priority="4" expand="true">
-            <depend id="35" type="2" difference="0" hardness="Strong"/>
-        </task>
-        <task id="97" name="Delning av rapporter mellan par" color="#8cb6ce" meeting="false" start="2021-01-18" duration="5" complete="0" thirdDate="2020-08-31" thirdDate-constraint="0" expand="true">
-            <depend id="35" type="2" difference="0" hardness="Strong"/>
-        </task>
-        <task id="35" name="Opponering" color="#ffcc33" meeting="false" start="2021-01-25" duration="25" complete="0" thirdDate="2020-08-17" thirdDate-constraint="0" priority="2" expand="true">
-            <depend id="39" type="2" difference="0" hardness="Strong"/>
+        <task id="144" name="Hela Opponeringsprosessen" color="#ffcc33" meeting="false" start="2021-01-18" duration="30" complete="0" thirdDate="2021-01-18" thirdDate-constraint="0" expand="false">
+            <task id="32" name="Förberedelse inför opponering" color="#6666ff" meeting="false" start="2021-01-18" duration="5" complete="0" thirdDate="2020-08-17" thirdDate-constraint="0" priority="4" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="97" name="Delning av rapporter mellan par" color="#8cb6ce" meeting="false" start="2021-01-18" duration="5" complete="0" thirdDate="2020-08-31" thirdDate-constraint="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="35" name="Opponering" color="#ffcc33" meeting="false" start="2021-01-25" duration="25" complete="0" thirdDate="2020-08-17" thirdDate-constraint="0" priority="2" expand="true">
+                <depend id="39" type="2" difference="0" hardness="Strong"/>
+            </task>
         </task>
         <task id="22" name="HÖSTLOV" color="#41f52b" meeting="false" start="2020-10-26" duration="5" complete="0" thirdDate="2020-10-01" thirdDate-constraint="0" expand="true"/>
         <task id="27" name="JULLOV" color="#41f52b" meeting="false" start="2020-12-21" duration="15" complete="0" thirdDate="2020-08-17" thirdDate-constraint="0" expand="true"/>
