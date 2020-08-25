@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="GYMNASIEPROJEKT" company="" webLink="http://" view-date="2020-08-23" view-index="0" gantt-divider-location="519" resource-divider-location="300" version="2.8.11" locale="en">
+<?xml version="1.0" encoding="UTF-8"?><project name="GYMNASIEPROJEKT" company="" webLink="http://" view-date="2020-08-23" view-index="1" gantt-divider-location="519" resource-divider-location="300" version="2.8.11" locale="en">
     <description/>
     <view zooming-state="default:7" id="gantt-chart">
         <field id="tpd3" name="Name" width="303" order="0"/>
@@ -111,7 +111,10 @@ Preliminära tester/resultat?"]]></notes>
         </task>
         <task id="39" name="KLAR!!!!!!!!!" color="#ff0033" meeting="true" start="2021-03-08" duration="0" complete="0" thirdDate="2020-08-17" thirdDate-constraint="0" expand="true"/>
     </tasks>
-    <resources/>
+    <resources>
+        <resource id="0" name="Johannes Flodin" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="Toshihide Sakao" function="Default:0" contacts="" phone=""/>
+    </resources>
     <allocations/>
     <vacations/>
     <previous/>
