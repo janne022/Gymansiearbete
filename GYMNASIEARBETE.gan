@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="GYMNASIEPROJEKT" company="" webLink="http://" view-date="2020-07-01" view-index="0" gantt-divider-location="519" resource-divider-location="300" version="2.8.11" locale="en">
+<?xml version="1.0" encoding="UTF-8"?><project name="GYMNASIEPROJEKT" company="" webLink="http://" view-date="2020-07-01" view-index="0" gantt-divider-location="485" resource-divider-location="300" version="2.8.11" locale="en">
     <description/>
     <view zooming-state="default:8" id="gantt-chart">
-        <field id="tpd3" name="Name" width="303" order="0"/>
-        <field id="tpd4" name="Begin date" width="73" order="1"/>
-        <field id="tpd5" name="End date" width="139" order="2"/>
+        <field id="tpd3" name="Name" width="282" order="0"/>
+        <field id="tpd4" name="Begin date" width="69" order="1"/>
+        <field id="tpd5" name="End date" width="130" order="2"/>
         <timeline><![CDATA[3]]></timeline>
         <option id="color.recent"><![CDATA[#ffcc33 #00cccc #cc66ff #66ffff #cc00cc #cccc00 #ffff00 #ff0066 #ff6699 #6666ff]]></option>
     </view>
@@ -35,8 +35,8 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="143" name="Första Jobbet" color="#cc66ff" meeting="false" start="2020-08-24" duration="15" complete="6" thirdDate="2020-08-24" thirdDate-constraint="0" expand="false">
-            <task id="3" name="Introduction" color="#6666ff" meeting="false" start="2020-08-24" duration="5" complete="30" thirdDate="2020-08-24" thirdDate-constraint="0" priority="2" expand="true">
+        <task id="143" name="Första Jobbet" color="#cc66ff" meeting="false" start="2020-08-24" duration="15" complete="96" thirdDate="2020-08-24" thirdDate-constraint="0" expand="true">
+            <task id="3" name="Introduction" color="#6666ff" meeting="false" start="2020-08-24" duration="5" complete="100" thirdDate="2020-08-24" thirdDate-constraint="0" priority="2" expand="true">
                 <notes><![CDATA[
 Kommunikation och handledning
 Välja ämne, börja hitta grupper
@@ -49,11 +49,11 @@ Arbete (frågeställning & projektplan)"]]></notes>
                 <depend id="6" type="2" difference="0" hardness="Strong"/>
                 <depend id="121" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="6" name="Frågeställning" color="#66ffff" meeting="false" start="2020-08-31" duration="10" complete="0" thirdDate="2020-08-24" thirdDate-constraint="0" priority="2" expand="true">
+            <task id="6" name="Frågeställning" color="#66ffff" meeting="false" start="2020-08-31" duration="10" complete="90" thirdDate="2020-08-24" thirdDate-constraint="0" priority="2" expand="true">
                 <depend id="16" type="2" difference="0" hardness="Strong"/>
                 <depend id="92" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="121" name="Projektplan" color="#66ffff" meeting="false" start="2020-08-31" duration="10" complete="0" thirdDate="2020-08-31" thirdDate-constraint="0" expand="true">
+            <task id="121" name="Projektplan" color="#66ffff" meeting="false" start="2020-08-31" duration="10" complete="100" thirdDate="2020-08-31" thirdDate-constraint="0" expand="true">
                 <depend id="16" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
