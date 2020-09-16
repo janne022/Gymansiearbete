@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?><project name="GYMNASIEPROJEKT" company="" webLink="http://" view-date="2020-08-16" view-index="0" gantt-divider-location="485" resource-divider-location="300" version="2.8.11" locale="en">
     <description/>
     <view zooming-state="default:7" id="gantt-chart">
         <field id="tpd3" name="Name" width="282" order="0"/>
         <field id="tpd4" name="Begin date" width="69" order="1"/>
         <field id="tpd5" name="End date" width="130" order="2"/>
+=======
+<?xml version="1.0" encoding="UTF-8"?><project name="GYMNASIEPROJEKT" company="" webLink="http://" view-date="2020-07-05" view-index="0" gantt-divider-location="485" resource-divider-location="300" version="2.8.11" locale="en">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Name" width="273" order="0"/>
+        <field id="tpd4" name="Begin date" width="67" order="1"/>
+        <field id="tpd5" name="End date" width="126" order="2"/>
+>>>>>>> parent of 53df299... Fixed Rapporttid
         <timeline><![CDATA[3]]></timeline>
         <option id="color.recent"><![CDATA[#ffcc33 #00cccc #cc66ff #66ffff #cc00cc #cccc00 #ffff00 #ff0066 #ff6699 #6666ff]]></option>
     </view>
@@ -35,7 +44,13 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
+<<<<<<< HEAD
         <task id="143" name="Första Jobbet" color="#cc66ff" meeting="false" start="2020-08-24" duration="15" complete="96" thirdDate="2020-08-24" thirdDate-constraint="0" expand="true">
+=======
+        <task id="143" name="Första Jobbet" color="#cc66ff" meeting="false" start="2020-08-24" duration="20" complete="87" thirdDate="2020-08-24" thirdDate-constraint="0" expand="true">
+            <depend id="16" type="2" difference="0" hardness="Strong"/>
+            <depend id="109" type="2" difference="0" hardness="Strong"/>
+>>>>>>> parent of 53df299... Fixed Rapporttid
             <task id="3" name="Introduction" color="#6666ff" meeting="false" start="2020-08-24" duration="5" complete="100" thirdDate="2020-08-24" thirdDate-constraint="0" priority="2" expand="true">
                 <notes><![CDATA[
 Kommunikation och handledning
@@ -49,6 +64,7 @@ Arbete (frågeställning & projektplan)"]]></notes>
                 <depend id="6" type="2" difference="0" hardness="Strong"/>
                 <depend id="121" type="2" difference="0" hardness="Strong"/>
             </task>
+<<<<<<< HEAD
             <task id="6" name="Frågeställning" color="#66ffff" meeting="false" start="2020-08-31" duration="10" complete="90" thirdDate="2020-08-24" thirdDate-constraint="0" priority="2" expand="true">
                 <depend id="16" type="2" difference="0" hardness="Strong"/>
                 <depend id="92" type="2" difference="0" hardness="Strong"/>
@@ -67,6 +83,27 @@ Arbete (frågeställning & projektplan)"]]></notes>
                 <notes><![CDATA[börja göra vårat egna unity projekt]]></notes>
                 <depend id="24" type="2" difference="0" hardness="Strong"/>
                 <task id="145" name="Prototyp version 1" color="#8cb6ce" meeting="false" start="2020-09-14" duration="20" complete="0" thirdDate="2020-08-17" thirdDate-constraint="0" expand="true"/>
+=======
+            <task id="6" name="Frågeställning" color="#66ffff" meeting="false" start="2020-08-31" duration="15" complete="100" thirdDate="2020-08-24" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="121" name="Projektplan" color="#66ffff" meeting="false" start="2020-08-31" duration="15" complete="70" thirdDate="2020-08-31" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="140" name="All Jobb" color="#00cccc" meeting="false" start="2020-09-14" duration="95" complete="1" thirdDate="2020-09-14" thirdDate-constraint="0" expand="true">
+            <depend id="144" type="2" difference="0" hardness="Strong"/>
+            <task id="44" name="Förstudie" color="#cc33ff" meeting="false" start="2020-09-21" duration="20" complete="0" thirdDate="2020-08-03" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Läsa och testa för att förstå Neural Networks]]></notes>
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="92" name="Prototyp" color="#ff6699" meeting="false" start="2020-09-14" duration="50" complete="6" thirdDate="2020-08-03" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[börja göra vårat egna unity projekt]]></notes>
+                <depend id="24" type="2" difference="0" hardness="Strong"/>
+                <task id="145" name="Prototyp version 1" color="#8cb6ce" meeting="false" start="2020-09-14" duration="20" complete="15" thirdDate="2020-08-17" thirdDate-constraint="0" expand="true">
+                    <depend id="151" type="2" difference="0" hardness="Strong"/>
+                    <task id="153" name="Tetris Building" color="#8cb6ce" meeting="false" start="2020-09-14" duration="10" complete="30" thirdDate="2020-07-06" thirdDate-constraint="0" expand="true">
+                        <depend id="154" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="154" name="Neural Network" color="#8cb6ce" meeting="false" start="2020-09-28" duration="10" complete="0" thirdDate="2020-07-06" thirdDate-constraint="0" expand="true"/>
+                </task>
+>>>>>>> parent of 53df299... Fixed Rapporttid
                 <task id="151" name="Prototyp förbättring" color="#8cb6ce" meeting="false" start="2020-10-12" duration="30" complete="0" thirdDate="2020-09-14" thirdDate-constraint="0" expand="true"/>
             </task>
             <task id="65" name="Tester" color="#ff6699" meeting="false" start="2020-10-12" duration="70" complete="0" thirdDate="2020-08-03" thirdDate-constraint="0" expand="true">
@@ -74,6 +111,7 @@ Arbete (frågeställning & projektplan)"]]></notes>
                 <depend id="30" type="2" difference="0" hardness="Strong"/>
                 <depend id="76" type="3" difference="0" hardness="Strong"/>
             </task>
+<<<<<<< HEAD
             <task id="76" name="Rapporten" color="#ff6699" meeting="false" start="2020-11-09" duration="50" complete="0" thirdDate="2020-08-03" thirdDate-constraint="0" expand="true">
                 <depend id="30" type="2" difference="0" hardness="Strong"/>
             </task>
@@ -83,6 +121,15 @@ Arbete (frågeställning & projektplan)"]]></notes>
         </task>
         <task id="144" name="Hela Opponeringsprosessen" color="#ffcc33" meeting="false" start="2021-01-18" duration="30" complete="0" thirdDate="2021-01-18" thirdDate-constraint="0" expand="false">
             <task id="32" name="Förberedelse inför opponering" color="#6666ff" meeting="false" start="2021-01-18" duration="5" complete="0" thirdDate="2020-08-17" thirdDate-constraint="0" priority="4" expand="true">
+=======
+            <task id="76" name="Rapporten" color="#ff6699" meeting="false" start="2020-10-19" duration="70" complete="0" thirdDate="2020-08-03" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="74" name="Handledning (Arbete &amp; Rapportmallen)" color="#6666ff" meeting="false" start="2020-11-02" duration="5" complete="0" thirdDate="2020-08-03" thirdDate-constraint="0" expand="true"/>
+        <task id="144" name="Hela Opponeringsprosessen" color="#ffcc33" meeting="false" start="2021-01-25" duration="30" complete="0" thirdDate="2021-01-18" thirdDate-constraint="0" expand="true">
+            <depend id="37" type="2" difference="0" hardness="Strong"/>
+            <depend id="39" type="2" difference="0" hardness="Rubber"/>
+            <task id="32" name="Förberedelse inför opponering" color="#6666ff" meeting="false" start="2021-01-25" duration="5" complete="0" thirdDate="2020-08-17" thirdDate-constraint="0" priority="4" expand="true">
+>>>>>>> parent of 53df299... Fixed Rapporttid
                 <depend id="35" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="97" name="Delning av rapporter mellan par" color="#8cb6ce" meeting="false" start="2021-01-18" duration="5" complete="0" thirdDate="2020-08-31" thirdDate-constraint="0" expand="true">
@@ -97,11 +144,18 @@ Arbete (frågeställning & projektplan)"]]></notes>
         <task id="37" name="SPORTLOV" color="#41f52b" meeting="false" start="2021-03-01" duration="5" complete="0" thirdDate="2021-02-26" thirdDate-constraint="0" expand="true">
             <depend id="39" type="2" difference="0" hardness="Strong"/>
         </task>
+<<<<<<< HEAD
         <task id="16" name="DEADLINE: Frågeställning &amp; Projektplan" color="#ff0033" meeting="true" start="2020-09-14" duration="0" complete="0" thirdDate="2020-08-31" thirdDate-constraint="0" priority="4" expand="true">
             <depend id="44" type="2" difference="0" hardness="Strong"/>
             <depend id="109" type="2" difference="0" hardness="Strong"/>
         </task>
         <task id="109" name="Gruppredovisning: Frågeställning &amp; Projektplan" color="#cc00cc" meeting="true" start="2020-09-14" duration="0" complete="0" thirdDate="2020-08-31" thirdDate-constraint="0" expand="true">
+=======
+        <task id="16" name="DEADLINE: Frågeställning &amp; Projektplan" color="#ff0033" meeting="true" start="2020-09-21" duration="0" complete="0" thirdDate="2020-08-31" thirdDate-constraint="0" priority="4" expand="true">
+            <depend id="44" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="109" name="Gruppredovisning: Frågeställning &amp; Projektplan" color="#cc00cc" meeting="true" start="2020-09-21" duration="0" complete="0" thirdDate="2020-08-31" thirdDate-constraint="0" expand="true">
+>>>>>>> parent of 53df299... Fixed Rapporttid
             <notes><![CDATA[3min]]></notes>
         </task>
         <task id="18" name="Gruppredovisning: Förstudie &amp; Prototyp" color="#cc00cc" meeting="true" start="2020-10-12" duration="0" complete="0" thirdDate="2020-08-31" thirdDate-constraint="0" priority="4" expand="true">
@@ -112,7 +166,11 @@ Arbete (frågeställning & projektplan)"]]></notes>
 Inkl abstract, förstudie
 Preliminära tester/resultat?"]]></notes>
         </task>
+<<<<<<< HEAD
         <task id="30" name="DEADLINE: slutversion rapport" color="#ff0033" meeting="true" start="2021-01-18" duration="0" complete="0" thirdDate="2020-08-17" thirdDate-constraint="0" priority="4" expand="true">
+=======
+        <task id="30" name="DEADLINE: slutversion rapport" color="#ff0033" meeting="true" start="2021-01-25" duration="0" complete="0" thirdDate="2020-08-17" thirdDate-constraint="0" priority="4" expand="true">
+>>>>>>> parent of 53df299... Fixed Rapporttid
             <depend id="32" type="2" difference="0" hardness="Strong"/>
             <depend id="97" type="2" difference="0" hardness="Strong"/>
         </task>
