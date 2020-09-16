@@ -63,7 +63,7 @@ Arbete (frågeställning & projektplan)"]]></notes>
                 <depend id="18" type="2" difference="0" hardness="Strong"/>
                 <depend id="65" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="92" name="Prototyp" color="#ff6699" meeting="false" start="2020-09-14" duration="50" complete="0" thirdDate="2020-08-03" thirdDate-constraint="0" expand="true">
+            <task id="92" name="Prototyp" color="#ff6699" meeting="false" start="2020-09-14" duration="50" complete="0" thirdDate="2020-08-03" thirdDate-constraint="0" expand="false">
                 <notes><![CDATA[börja göra vårat egna unity projekt]]></notes>
                 <depend id="24" type="2" difference="0" hardness="Strong"/>
                 <task id="145" name="Prototyp version 1" color="#8cb6ce" meeting="false" start="2020-09-14" duration="20" complete="0" thirdDate="2020-08-17" thirdDate-constraint="0" expand="true"/>
