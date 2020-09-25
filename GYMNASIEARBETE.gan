@@ -57,7 +57,7 @@ Arbete (frågeställning & projektplan)"]]></notes>
                 <depend id="44" type="2" difference="0" hardness="Rubber"/>
             </task>
         </task>
-        <task id="140" name="All Jobb" color="#00cccc" meeting="false" start="2020-09-14" duration="95" complete="1" thirdDate="2020-09-14" thirdDate-constraint="0" expand="true">
+        <task id="140" name="All Jobb" color="#00cccc" meeting="false" start="2020-09-14" duration="95" complete="2" thirdDate="2020-09-14" thirdDate-constraint="0" expand="true">
             <depend id="30" type="2" difference="0" hardness="Rubber"/>
             <depend id="144" type="2" difference="0" hardness="Rubber"/>
             <task id="44" name="Förstudie" color="#cc33ff" meeting="false" start="2020-09-21" duration="20" complete="0" thirdDate="2020-08-03" thirdDate-constraint="0" expand="true">
@@ -65,18 +65,18 @@ Arbete (frågeställning & projektplan)"]]></notes>
                 <depend id="18" type="2" difference="0" hardness="Rubber"/>
                 <depend id="159" type="2" difference="-5" hardness="Rubber"/>
             </task>
-            <task id="92" name="Prototyp" color="#33bc00" meeting="false" start="2020-09-14" duration="50" complete="6" thirdDate="2020-08-03" thirdDate-constraint="0" expand="true">
+            <task id="92" name="Prototyp" color="#33bc00" meeting="false" start="2020-09-14" duration="50" complete="9" thirdDate="2020-08-03" thirdDate-constraint="0" expand="true">
                 <notes><![CDATA[börja göra vårat egna unity projekt]]></notes>
                 <depend id="24" type="2" difference="0" hardness="Rubber"/>
-                <task id="145" name="Prototyp version 1" color="#e8ca22" meeting="false" start="2020-09-14" duration="20" complete="15" thirdDate="2020-08-17" thirdDate-constraint="0" expand="true">
+                <task id="145" name="Prototyp version 1" color="#e8ca22" meeting="false" start="2020-09-14" duration="25" complete="18" thirdDate="2020-08-17" thirdDate-constraint="0" expand="true">
                     <depend id="18" type="2" difference="0" hardness="Rubber"/>
-                    <depend id="65" type="2" difference="0" hardness="Rubber"/>
-                    <depend id="76" type="2" difference="0" hardness="Rubber"/>
+                    <depend id="65" type="2" difference="-5" hardness="Rubber"/>
+                    <depend id="76" type="2" difference="-5" hardness="Rubber"/>
                     <depend id="151" type="2" difference="0" hardness="Rubber"/>
-                    <task id="153" name="Tetris Building" color="#a09d00" meeting="false" start="2020-09-14" duration="10" complete="30" thirdDate="2020-07-06" thirdDate-constraint="0" expand="true">
+                    <task id="153" name="Tetris Building" color="#a09d00" meeting="false" start="2020-09-14" duration="15" complete="30" thirdDate="2020-07-06" thirdDate-constraint="0" expand="true">
                         <depend id="154" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="154" name="Neural Network" color="#f1cd31" meeting="false" start="2020-09-28" duration="10" complete="0" thirdDate="2020-07-06" thirdDate-constraint="0" expand="true"/>
+                    <task id="154" name="Neural Network" color="#f1cd31" meeting="false" start="2020-10-05" duration="10" complete="0" thirdDate="2020-07-06" thirdDate-constraint="0" expand="true"/>
                 </task>
                 <task id="151" name="Prototyp förbättring" color="#faff9b" meeting="false" start="2020-10-19" duration="25" complete="0" thirdDate="2020-09-14" thirdDate-constraint="0" expand="true"/>
             </task>
