@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="GYMNASIEPROJEKT" company="" webLink="http://" view-date="2020-08-16" view-index="0" gantt-divider-location="485" resource-divider-location="300" version="2.8.11" locale="en">
+<?xml version="1.0" encoding="UTF-8"?><project name="GYMNASIEPROJEKT" company="" webLink="http://" view-date="2020-08-30" view-index="0" gantt-divider-location="485" resource-divider-location="300" version="2.8.11" locale="en">
     <description/>
     <view zooming-state="default:7" id="gantt-chart">
         <field id="tpd3" name="Name" width="278" order="0"/>
@@ -35,9 +35,10 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="143" name="Första Jobbet" color="#cc66ff" meeting="false" start="2020-08-24" duration="20" complete="87" thirdDate="2020-08-24" thirdDate-constraint="0" expand="false">
+        <task id="143" name="Första Jobbet" color="#cc66ff" meeting="false" start="2020-08-24" duration="20" complete="87" thirdDate="2020-08-24" thirdDate-constraint="0" expand="true">
             <depend id="16" type="2" difference="0" hardness="Rubber"/>
             <depend id="109" type="2" difference="0" hardness="Rubber"/>
+            <depend id="140" type="2" difference="-5" hardness="Rubber"/>
             <task id="3" name="Introduction" color="#6666ff" meeting="false" start="2020-08-24" duration="5" complete="100" thirdDate="2020-08-24" thirdDate-constraint="0" priority="2" expand="true">
                 <notes><![CDATA[
 Kommunikation och handledning
@@ -48,6 +49,7 @@ Loggbok
 Dokument och mallar, var man hittar grejer
 Planering, tidsplan (GANTT)
 Arbete (frågeställning & projektplan)"]]></notes>
+                <depend id="6" type="2" difference="0" hardness="Strong"/>
                 <depend id="121" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="6" name="Frågeställning" color="#66ffff" meeting="false" start="2020-08-31" duration="15" complete="100" thirdDate="2020-08-24" thirdDate-constraint="0" priority="2" expand="true"/>
@@ -55,18 +57,14 @@ Arbete (frågeställning & projektplan)"]]></notes>
                 <depend id="44" type="2" difference="0" hardness="Rubber"/>
             </task>
         </task>
-<<<<<<< HEAD
         <task id="140" name="All Jobb" color="#00cccc" meeting="false" start="2020-09-14" duration="95" complete="2" thirdDate="2020-09-14" thirdDate-constraint="0" expand="true">
-=======
-        <task id="140" name="All Jobb" color="#00cccc" meeting="false" start="2020-09-14" duration="95" complete="1" thirdDate="2020-09-14" thirdDate-constraint="0" expand="false">
->>>>>>> parent of 5cac5df... fixed some pre...
             <depend id="30" type="2" difference="0" hardness="Rubber"/>
             <depend id="144" type="2" difference="0" hardness="Rubber"/>
             <task id="44" name="Förstudie" color="#cc33ff" meeting="false" start="2020-09-21" duration="20" complete="0" thirdDate="2020-08-03" thirdDate-constraint="0" expand="true">
                 <notes><![CDATA[Läsa och testa för att förstå Neural Networks]]></notes>
                 <depend id="18" type="2" difference="0" hardness="Rubber"/>
+                <depend id="159" type="2" difference="-5" hardness="Rubber"/>
             </task>
-<<<<<<< HEAD
             <task id="92" name="Prototyp" color="#33bc00" meeting="false" start="2020-09-14" duration="50" complete="9" thirdDate="2020-08-03" thirdDate-constraint="0" expand="true">
                 <notes><![CDATA[börja göra vårat egna unity projekt]]></notes>
                 <depend id="24" type="2" difference="0" hardness="Rubber"/>
@@ -74,24 +72,18 @@ Arbete (frågeställning & projektplan)"]]></notes>
                     <depend id="18" type="2" difference="0" hardness="Rubber"/>
                     <depend id="65" type="2" difference="-5" hardness="Rubber"/>
                     <depend id="76" type="2" difference="-5" hardness="Rubber"/>
-=======
-            <task id="92" name="Prototyp" color="#33bc00" meeting="false" start="2020-09-14" duration="50" complete="6" thirdDate="2020-08-03" thirdDate-constraint="0" expand="false">
-                <notes><![CDATA[börja göra vårat egna unity projekt]]></notes>
-                <depend id="24" type="2" difference="0" hardness="Rubber"/>
-                <task id="145" name="Prototyp version 1" color="#e8ca22" meeting="false" start="2020-09-14" duration="20" complete="15" thirdDate="2020-08-17" thirdDate-constraint="0" expand="false">
->>>>>>> parent of 5cac5df... fixed some pre...
                     <depend id="151" type="2" difference="0" hardness="Rubber"/>
-                    <task id="153" name="Tetris Building" color="#a09d00" meeting="false" start="2020-09-14" duration="15" complete="30" thirdDate="2020-07-06" thirdDate-constraint="0" expand="true">
+                    <task id="153" name="Tetris Building" color="#a09d00" meeting="false" start="2020-09-14" duration="20" complete="30" thirdDate="2020-07-06" thirdDate-constraint="0" expand="true">
                         <depend id="154" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="154" name="Neural Network" color="#f1cd31" meeting="false" start="2020-10-05" duration="10" complete="0" thirdDate="2020-07-06" thirdDate-constraint="0" expand="true"/>
+                    <task id="154" name="Neural Network" color="#f1cd31" meeting="false" start="2020-10-05" duration="5" complete="0" thirdDate="2020-07-06" thirdDate-constraint="0" expand="true"/>
                 </task>
                 <task id="151" name="Prototyp förbättring" color="#faff9b" meeting="false" start="2020-10-19" duration="25" complete="0" thirdDate="2020-09-14" thirdDate-constraint="0" expand="true"/>
             </task>
             <task id="65" name="Tester" color="#f8c716" meeting="false" start="2020-10-12" duration="40" complete="0" thirdDate="2020-08-03" thirdDate-constraint="0" expand="true">
                 <notes><![CDATA[Testa om Neural networken funkar. Om inte, fixa koden och testa igen.]]></notes>
             </task>
-            <task id="76" name="Rapporten" color="#0033ff" meeting="false" start="2020-10-12" duration="75" complete="0" thirdDate="2020-08-03" thirdDate-constraint="0" expand="false">
+            <task id="76" name="Rapporten" color="#0033ff" meeting="false" start="2020-10-12" duration="75" complete="0" thirdDate="2020-08-03" thirdDate-constraint="0" expand="true">
                 <task id="159" name="Rapport Utkast" color="#3333ff" meeting="false" start="2020-10-12" duration="30" complete="0" thirdDate="2020-08-24" thirdDate-constraint="0" expand="true">
                     <depend id="24" type="2" difference="0" hardness="Rubber"/>
                 </task>
